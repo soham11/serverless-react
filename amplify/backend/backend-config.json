@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "serverlessreact0a94182f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
