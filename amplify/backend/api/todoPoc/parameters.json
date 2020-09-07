@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "todoPoc",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authserverlessreact0a94182f",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
