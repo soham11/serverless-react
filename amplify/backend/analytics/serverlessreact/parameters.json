@@ -1,0 +1,21 @@
+{
+    "appName": "serverlessreact",
+    "roleName": "pinpointLambdaRole9fd4be26",
+    "cloudformationPolicyName": "cloudformationPolicy9fd4be26",
+    "cloudWatchPolicyName": "cloudWatchPolicy9fd4be26",
+    "pinpointPolicyName": "pinpointPolicy9fd4be26",
+    "authPolicyName": "pinpoint_amplify_9fd4be26",
+    "unauthPolicyName": "pinpoint_amplify_9fd4be26",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

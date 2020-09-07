@@ -1,6 +1,6 @@
 {
     "identityPoolName": "serverlessreact0a94182f_identitypool_0a94182f",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "server0a94182f",
     "userPoolName": "serverlessreact0a94182f_userpool_0a94182f",
     "autoVerifiedAttributes": [

@@ -23,5 +23,11 @@
         }
       }
     }
+  },
+  "analytics": {
+    "serverlessreact": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
