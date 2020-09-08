@@ -57,6 +57,14 @@ class App extends Component {
       }
     });
   };
+  deleteEevent = () => {
+    Analytics.record({
+      name: "Delete",
+      attributes: {
+        username: this.state.username
+      }
+    });
+  };
   render() {
     return (
       <div className="App">
@@ -65,6 +73,7 @@ class App extends Component {
         <button onClick={this.listQuery}>GraphQL List Query</button>
         <button onClick={this.todoMutation}>GraphQL Todo Mutation</button>
         <button onClick={this.recordEvent}>Record Event</button>
+        <button onClick={this.deleteEvent}>Delete Event</button>
       </div>
     );
   }

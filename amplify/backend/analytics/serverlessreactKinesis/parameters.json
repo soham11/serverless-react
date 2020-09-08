@@ -1,0 +1,12 @@
+{
+  "kinesisStreamName": "serverlessreactKinesis",
+  "kinesisStreamShardCount": 1,
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "authPolicyName": "kinesis_amplify_ef6e326c",
+  "unauthPolicyName": "kinesis_amplify_ef6e326c"
+}

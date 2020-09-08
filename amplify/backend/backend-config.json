@@ -28,6 +28,10 @@
     "serverlessreact": {
       "service": "Pinpoint",
       "providerPlugin": "awscloudformation"
+    },
+    "serverlessreactKinesis": {
+      "service": "Kinesis",
+      "providerPlugin": "awscloudformation"
     }
   }
 }
