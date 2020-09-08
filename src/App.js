@@ -57,7 +57,7 @@ class App extends Component {
       }
     });
   };
-  deleteEevent = () => {
+  deleteEvent = () => {
     Analytics.record({
       name: "Delete",
       attributes: {
